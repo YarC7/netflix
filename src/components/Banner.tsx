@@ -4,7 +4,7 @@ import ImageTemp from '../assets/temp-1.jpeg'
 import PlayButton from '../assets/play-button.png'
 const Banner = () => {
     return (
-        <div className="w-full h-[700px] bg-banner bg-center bg-no-repeat bg-cover relative">
+        <div className="w-full h-[700px] bg-banner bg-center bg-no-repeat bg-cover relative rounded-md">
             <div className="absolute w-full h-full top-0 left-0 bg-black opacity-30"></div>
             <div className="p-4 w-full h-full flex items-center 
             justify-center space-x-[30px] relative z-20">

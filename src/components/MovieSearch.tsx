@@ -14,7 +14,7 @@ const MovieSearch: React.FC<MovieSearchProps> = ({ data }) => {
   const { handleTrailer } = useGlobalContext();
   return (
     <div className="my-10 px-10 max-w-full">
-      <h2 className="text-xl uppercase mb-4">Kết quả tìm kiếm</h2>
+      <h2 className="text-xl uppercase mb-4 text-white">Kết quả tìm kiếm</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4  ">
         {data.map((item) => (
           <div
